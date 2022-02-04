@@ -1,0 +1,56 @@
+main {
+  padding: 5px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main * {
+  box-sizing: border-box;
+}
+main h1,
+main h2,
+main h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+main p,
+main div {
+  font-family: 'Nunito-Sans', sans-serif;
+}
+main section {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+main section > div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+main section > div .card {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgrey;
+  box-shadow: black;
+  margin-bottom: 20px;
+  padding: 0px 5px;
+}
+main section > div .card p {
+  margin: 0;
+  padding: 5px 0px;
+}
+main section > div .card .title {
+  text-align: center;
+}
+main section > div .card .title .dlc {
+  padding: 0px 8px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+}
+main section > div .card .flex {
+  display: flex;
+  align-items: center;
+}
